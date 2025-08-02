@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - QR Code Generator & Reader</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      color: #1abc9c;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+
+    .features {
+      margin-top: 2rem;
+    }
+
+    .features ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #999;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><span class="highlight">QR Code</span> Generator & Reader</h1>
+
+    <p>
+      This app is your all-in-one solution for generating, customizing, scanning, and managing QR codes.
+      Whether you're sharing contact details, connecting to Wi-Fi, or creating dynamic codes for your business — this app makes it fast and easy.
+    </p>
+
+    <p>
+      Designed with a modern interface and powered by the latest Android technologies, it supports a wide variety of QR formats and includes customization tools for a personalized look.
+    </p>
+
+    <div class="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Generate QR codes for text, URLs, contacts, emails, Wi-Fi, and more</li>
+        <li>Scan and decode QR codes instantly with camera or image import</li>
+        <li>Customize colors, patterns, and add logos</li>
+        <li>Batch QR generation for businesses or marketing</li>
+        <li>History tracking and favorite QR codes</li>
+        <li>Export and share in high-quality formats</li>
+        <li>Built with Jetpack Compose and modern Android architecture</li>
+      </ul>
+    </div>
+
+    <p class="footer">© 2025 QR Code App. All rights reserved.</p>
+  </div>
+</body>
+</html>
